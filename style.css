@@ -1,0 +1,56 @@
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  color: #494949;
+  font-size: 1em;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+  text-align: center;
+}
+
+.centralize {
+  margin: auto 10em;
+
+}
+
+.text-left {
+  text-align: left;
+  margin-top: 2em;
+}
+
+p {
+  text-align: left;
+  font-size: 22px;
+}
+
+button {
+  text-decoration: none;
+  padding: 1em 1.5em;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  background-color: rgb(100, 149, 237);
+  transition: all 0.5s ease-out
+}
+
+button:hover {
+  transform: translateY(0.8em);
+  background-color: aliceblue;
+  scale: 1.2;
+}
+
+hr {
+  margin: 3em 0;
+}
